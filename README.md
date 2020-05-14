@@ -1,7 +1,7 @@
-TypeScript Jest Demo
+TypeScript Jest "toMatchObject" Demo
 ===========================
 
-使用typescript就需要在`jest.config.js`中使用`ts-jest`作为`preset`
+`toMatchObject`还可以匹配深层的Partial Object
 
 ```
 npm install
