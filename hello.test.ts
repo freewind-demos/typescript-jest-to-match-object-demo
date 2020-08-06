@@ -8,6 +8,9 @@ describe('toMatchObject', () => {
             ccc: 333,
             ddd: 444
           }
+        },
+        {
+          eee: [666, 777]
         }
       ]
     ).toMatchObject([
@@ -16,6 +19,9 @@ describe('toMatchObject', () => {
         bbb: {
           ccc: 333
         }
+      },
+      {
+        eee: [666, 777]
       }
     ])
   })
